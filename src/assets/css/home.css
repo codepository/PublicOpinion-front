@@ -1,0 +1,125 @@
+.editor-layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.editor-layout .editor-layout__main {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.editor-toolbar{
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #eef2f8;
+  display: flex;
+  padding: 0 0;
+}
+.header__logo {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f64;
+  height: 100%;
+  width: 380px;
+}
+.header__logo .header__link{
+  color: #757e8a;
+}
+.header__logo .logo {
+  width: 60px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+.header-user {
+  height: 100%;
+  width: 260px;
+  /* position: relative; */
+}
+.user-info {
+  position: absolute;
+  /* height: 100%; */
+  right: 20px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+}
+.user-info, .user-logout {
+  cursor: pointer;
+  color: rgba(0,0,0,.65);
+}
+.user-info .user-info__head {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #f64;
+  margin-right: 5px;
+}
+.user-info .user-info__nickname {
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 5px;
+}
+.side-bar{
+  position: relative;
+  width: 70px;
+  height: 100%;
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.side-bar .side-bar-wrap {
+  width: 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f3f4f9;
+}
+.side-tab-menu{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #757e8a;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.side-tab-menu.active {
+  color: #f64;
+  background-color: #fff;
+}
+.side-tab-menu .side-tab-menu__icon {
+  width: 19px;
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.side-tab-menu .side-tab-menu__label{
+  margin-top: 6px;
+  display: block;
+}
